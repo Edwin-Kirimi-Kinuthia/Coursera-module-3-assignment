@@ -1,0 +1,83 @@
+/* Custom Styles */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 1.5em;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  /* Header */
+  #header-nav {
+    background-color: #999;
+  }
+  
+  .navbar-brand {
+    padding-top: 25px;
+  }
+  
+  .navbar-brand h1 {
+    color: #000;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  
+  #collapsable-nav {
+    background-color: #ccc; /* Dropdown menu background color */
+  }
+  
+  #nav-list {
+    width: 100%; /* Make the dropdown menu take up the entire width */
+  }
+  
+  #nav-list a {
+    color: #000;
+    text-align: center;
+  }
+  
+  #nav-list a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Page Heading */
+  #menu-categories-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Single Tall Section */
+  .tall-section {
+    background-color: #ccc; /* Background color for the tall section */
+    padding: 20px; /* Adjust padding as needed */
+    min-height: 1000px; /* Set a minimum height to ensure the section is tall */
+  }
+  /* Custom Styles for Tablet View */
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar-toggle {
+    float: right;
+    margin-right: 15px; /* Adjust margin as needed */
+  }
+
+  #collapsable-nav {
+    background-color: #f9f9f9; /* Change background color as desired */
+    float: right;
+    margin-right: 15px; /* Adjust margin as needed */
+  }
+}
+/* Custom Styles for Tablet View */
+@media (min-width: 768px) and (max-width: 991px) {
+    #collapsable-nav {
+      background-color: #f9f9f9; /* Change background color as desired */
+      display: none; /* Hide menu items by default */
+    }
+  
+    #collapsable-nav.in {
+      display: block; /* Show menu items when button is clicked */
+    }
+  }  
